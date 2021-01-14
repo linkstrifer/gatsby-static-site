@@ -32,7 +32,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "github-pages": "node github-pages.js",
+    "export": "npm run build -- --prefix-paths && npm run github-pages"
   },
   "repository": {
     "type": "git",
